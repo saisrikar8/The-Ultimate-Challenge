@@ -1,0 +1,57 @@
+from random import randint
+
+number_of_questions = int(input("How many questions would you like to answer: "))
+
+operation = input(What type of quiz would you like to take - please enter in all uppercase: )
+
+correct_count = 0
+count = 0
+
+while (count < number_of_questions): 
+
+  num1 = random number from 1 to 100
+  num2 = random number from 1 to 100
+  
+  if operation == "ADDITION"
+    answer = int(input("What is {} + {} = ".format(num1, num2)))
+
+    if num1 + num2 == answer: 
+      print (You are correct)
+      add 1 to correct count
+
+    else:
+      print incorrect message (customizable)
+      print("Sorry, that is incorrect. ", num1, " + ", num2, "is equal to ", num1 + num2)
+
+  
+  elif operation == SUBTRACTION:
+    answer = int(input("What is {} - {} = ".format(num1, num2)))    
+    
+    if (num1 < num2):
+      switch num1 and num2
+
+    if (num1 - num2 == answer): 
+      print(You are correct)
+      add one to correct_count    
+  
+    else:
+      print incorrect message 
+      print("Sorry, that is incorrect. ", num1, " - ", num2, "is equal to ", num1 - num2)
+
+    
+
+  elif operation == "MULTIPLICATION":
+    answer = int(input("What is {} * {} = ".format(num1, num2)))        
+    
+    if (num1 * num2 == answer): 
+      print(You are correct)
+      add 1 to correct_count
+
+    else:
+      print("Sorry, that is incorrect. ", num1, " * ", num2, "is equal to ", num1 * num2)
+  
+  
+  add one to count
+
+print("The quiz has been completed. You have correctly answered ", correct_count, " out of ", number_of_questions)
+
